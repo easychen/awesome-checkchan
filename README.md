@@ -74,30 +74,7 @@ checkchan://title=%E6%89%8B%E5%B7%A5%E8%80%BF%E7%9A%84%E5%BE%AE%E5%8D%9A&url=htt
 粘贴任务到Check酱后修改`URL`中的 `/u/` 后的数字为用户UID
 
 ![](image/20220609102941.png) 
-
-## B站
-
-### 番剧更新
-
-思路：选择移动版界面，上边直接有更新集数，用选择器点击即可
-
-#### 演示：辉夜大小姐
-
-<https://m.bilibili.com/bangumi/play/ss41411>
-
-![](image/20220609161725.png)  
-
-#### 任务编码
-
-```
-checkchan://title=%E8%BE%89%E5%A4%9C%E5%A4%A7%E5%B0%8F%E5%A7%90%E6%83%B3%E8%AE%A9%E6%88%91%E5%91%8A%E7%99%BD%20-%E7%A9%B6%E6%9E%81%E6%B5%AA%E6%BC%AB&url=https%3A%2F%2Fm.bilibili.com%2Fbangumi%2Fplay%2Fss41411&path=div%23app%20%3E%20div%3Anth-of-type(2)%20%3E%20div%20%3E%20div%3Anth-of-type(5)%20%3E%20div%20%3E%20i&type=dom&code=200&json_data_format=form&rss_field=title&delay=0&retry=10&cron=*%20*%20*%20*%20*&when=change&compare_type=all&compare_op=ne&compare_value=*%E4%B8%8A%E6%AC%A1%E7%9B%91%E6%B5%8B%E8%BF%94%E5%9B%9E%E5%80%BC*&shell_type=javascript&ua=Mozilla%2F5.0%20(iPhone%3B%20CPU%20iPhone%20OS%2013_2_3%20like%20Mac%20OS%20X)%20AppleWebKit%2F605.1.15%20(KHTML%2C%20like%20Gecko)%20Version%2F13.0.3%20Mobile%2F15E148%20Safari%2F604.1%20Edg%2F101.0.4951.64
-```
-
-#### 改为其他番剧
-
-粘贴任务到Check酱后修改`URL`中的 `/play/` 后的数字为番剧ID
-
-![](image/20220609161844.png)  
+ 
 
 ## 抖音
 
@@ -208,4 +185,32 @@ await page.click('#J_isku > div > dl.J_Prop.tb-prop.tb-clear.J_Prop_Color > dd >
 ![](image/20220609171418.png)  
 
 > 由于此页面属于个人订单，因此不提供任务代码，自行用选择器选择即可
+
+# 动漫游戏
+
+## B站
+
+### 番剧更新
+
+思路：选择移动版界面，上边直接有更新集数，用选择器点击即可
+
+#### 演示：辉夜大小姐
+
+<https://m.bilibili.com/bangumi/play/ss41411>
+
+![](image/20220609161725.png)  
+
+#### 任务编码
+
+```
+checkchan://title=%E8%BE%89%E5%A4%9C%E5%A4%A7%E5%B0%8F%E5%A7%90%E6%83%B3%E8%AE%A9%E6%88%91%E5%91%8A%E7%99%BD%20-%E7%A9%B6%E6%9E%81%E6%B5%AA%E6%BC%AB&url=https%3A%2F%2Fm.bilibili.com%2Fbangumi%2Fplay%2Fss41411&path=div%23app%20%3E%20div%3Anth-of-type(2)%20%3E%20div%20%3E%20div%3Anth-of-type(5)%20%3E%20div%20%3E%20i&type=dom&code=200&json_data_format=form&rss_field=title&delay=0&retry=10&cron=*%20*%20*%20*%20*&when=change&compare_type=all&compare_op=ne&compare_value=*%E4%B8%8A%E6%AC%A1%E7%9B%91%E6%B5%8B%E8%BF%94%E5%9B%9E%E5%80%BC*&shell_type=javascript&ua=Mozilla%2F5.0%20(iPhone%3B%20CPU%20iPhone%20OS%2013_2_3%20like%20Mac%20OS%20X)%20AppleWebKit%2F605.1.15%20(KHTML%2C%20like%20Gecko)%20Version%2F13.0.3%20Mobile%2F15E148%20Safari%2F604.1%20Edg%2F101.0.4951.64
+```
+
+#### 改为其他番剧
+
+粘贴任务到Check酱后修改`URL`中的 `/play/` 后的数字为番剧ID
+
+![](image/20220609161844.png) 
+
+
 
