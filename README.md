@@ -216,5 +216,28 @@ checkchan://title=%E8%BE%89%E5%A4%9C%E5%A4%A7%E5%B0%8F%E5%A7%90%E6%83%B3%E8%AE%A
 
 ![](image/20220609161844.png) 
 
+### UP主视频更新
+
+> 感谢 [Ar-Hyk](https://github.com/Ar-Hyk) 贡献
+
+思路：获取UP主页的第一条视频标题
+
+#### 演示：罗小黑战记 
+
+<https://space.bilibili.com/5632230/>
+
+![](image/20220610110824.png)  
+
+#### 任务编码
+
+```
+checkchan://title=UP_%E7%BD%97%E5%B0%8F%E9%BB%91%E6%88%98%E8%AE%B0&url=https%3A%2F%2Fspace.bilibili.com%2F5632230%2F&path=%23page-index%20%3E%20div.col-1%20%3E%20div.section.video.full-rows%20%3E%20div%20%3E%20div%3Anth-child(1)%20%3E%20a.title&type=dom&code=200&json_data_format=form&rss_field=title&delay=0&retry=10&cron=*%20*%20*%20*%20*&when=change&compare_type=all&compare_op=ne&compare_value=*%E4%B8%8A%E6%AC%A1%E7%9B%91%E6%B5%8B%E8%BF%94%E5%9B%9E%E5%80%BC*&shell_type=javascript
+```
+
+#### 改为其他UP主
+
+粘贴任务到Check酱后修改URL中的**/5632230/**里的的数字，改为对应为UP主UID
+
+![](image/20220610110851.png)  
 
 
