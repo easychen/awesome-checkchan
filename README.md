@@ -237,7 +237,7 @@ checkchan://title=UP_%E7%BD%97%E5%B0%8F%E9%BB%91%E6%88%98%E8%AE%B0&url=https%3A%
 
 #### 改为其他UP主
 
-粘贴任务到Check酱后修改URL中的**/5632230/**里的的数字，改为对应为UP主UID
+粘贴任务到Check酱后修改URL中的`/5632230/`里的数字，改为对应为UP主UID
 
 ![](image/20220610110851.png)  
 
